@@ -1,0 +1,27 @@
+﻿<Application x:Class="TryWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="ADM_Games_Menu.xaml">
+
+    <!--StartupUri="">
+    Exam_menu
+    ADM_EditUserGantt
+    ADM_Statistics
+    ADM_Games_Menu
+    ADM_Statistics
+    ADM_EditUserGantt
+    ADM_gantt
+    ADM_menu
+    ADM_AddUser
+    ADM_ChooseUserForEditDelete
+    Login
+    Dot_matrix
+    Sky_game
+    Treasure_map.xaml
+    Castle_game
+    Menu.xaml
+    -->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
