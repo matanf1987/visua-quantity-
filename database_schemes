@@ -1,0 +1,226 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.11
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Aug 08, 2015 at 07:24 AM
+-- Server version: 5.6.21
+-- PHP Version: 5.6.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `visua_quantity`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `dates`
+--
+
+CREATE TABLE IF NOT EXISTS `dates` (
+  `userName` varchar(40) NOT NULL,
+  `participantNumber` varchar(40) NOT NULL,
+  `date` date NOT NULL,
+  `day` varchar(40) NOT NULL,
+  `hour` varchar(40) NOT NULL,
+  `robotGameTimeTotal` varchar(40) NOT NULL,
+  `skyGameTimeTotal` varchar(40) NOT NULL,
+  `treasureMapGameTimeTotal` varchar(40) NOT NULL,
+  `treasureMapReverseGameTimeTotal` varchar(40) NOT NULL,
+  `castleGameTimeTotal` varchar(40) NOT NULL,
+  `villageGameLocationTimeTotal` varchar(40) NOT NULL,
+  `villageGameIdentityTimeTotal` varchar(40) NOT NULL,
+  `robotGameTimeLeft` varchar(40) NOT NULL,
+  `skyGameTimeLeft` varchar(40) NOT NULL,
+  `treasureMapGameTimeLeft` varchar(40) NOT NULL,
+  `treasureMapReverseGameTimeLeft` varchar(40) NOT NULL,
+  `castleGameTimeLeft` varchar(40) NOT NULL,
+  `villageGameLocationTimeLeft` varchar(40) NOT NULL,
+  `villageGameIdentityTimeLeft` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `dates`
+--
+
+INSERT INTO `dates` (`userName`, `participantNumber`, `date`, `day`, `hour`, `robotGameTimeTotal`, `skyGameTimeTotal`, `treasureMapGameTimeTotal`, `treasureMapReverseGameTimeTotal`, `castleGameTimeTotal`, `villageGameLocationTimeTotal`, `villageGameIdentityTimeTotal`, `robotGameTimeLeft`, `skyGameTimeLeft`, `treasureMapGameTimeLeft`, `treasureMapReverseGameTimeLeft`, `castleGameTimeLeft`, `villageGameLocationTimeLeft`, `villageGameIdentityTimeLeft`) VALUES
+('matan', '1', '2015-06-26', 'fMRI pre', '11:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'),
+('matan', '1', '2015-06-28', 'Day1', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-06-30', 'Day2', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-01', 'Day3', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-02', 'Day4', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-03', 'Day5', '15:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-04', 'Day6', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-05', 'Day7', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-06', 'Day8', '13:00', '9', '9', '9', '9', '9', '9', '9', '2', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-07', 'Day9', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-08', 'Day10', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-09', 'Day11', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-10', 'Day12', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-11', 'Day13', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-12', 'Day14', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-13', 'Day15', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-14', 'Day16', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-15', 'Day17', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-16', 'Day18', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-17', 'Day19', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-18', 'Day20', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matan', '1', '2015-07-19', 'fMRI post', '13:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'),
+('matanri', '2', '2015-06-26', 'fMRI pre', '13:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'),
+('matanri', '2', '2015-06-28', 'Day1', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-06-30', 'Day2', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-01', 'Day3', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-02', 'Day4', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-03', 'Day5', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-04', 'Day6', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-05', 'Day7', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-06', 'Day8', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-07', 'Day9', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-08', 'Day10', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-09', 'Day11', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-10', 'Day12', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-11', 'Day13', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-12', 'Day14', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-13', 'Day15', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-14', 'Day16', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-15', 'Day17', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-16', 'Day18', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-17', 'Day19', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-18', 'Day20', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('matanri', '2', '2015-07-19', 'fMRI post', '13:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'),
+('player1', '3', '2015-06-25', 'fMRI pre', '13:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'),
+('player1', '3', '2015-06-28', 'Day1', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-06-29', 'Day2', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-01', 'Day3', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-02', 'Day4', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-03', 'Day5', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-04', 'Day6', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-05', 'Day7', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-10', 'Day8', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-11', 'Day9', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-12', 'Day10', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-14', 'Day11', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-18', 'Day12', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-20', 'Day13', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-21', 'Day14', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-24', 'Day15', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-26', 'Day16', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-07-29', 'Day17', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-08-16', 'Day18', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-08-17', 'Day19', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-08-18', 'Day20', '13:00', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9', '9'),
+('player1', '3', '2015-08-19', 'fMRI post', '13:00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `games_global_time`
+--
+
+CREATE TABLE IF NOT EXISTS `games_global_time` (
+  `username` varchar(40) NOT NULL,
+  `robotGame` varchar(40) NOT NULL,
+  `skyGame` varchar(40) NOT NULL,
+  `treasureMapGame` varchar(40) NOT NULL,
+  `treasureMapReverseGame` varchar(40) NOT NULL,
+  `castleGame` varchar(40) NOT NULL,
+  `villageGameLocation` varchar(40) NOT NULL,
+  `villageGameIdentity` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `games_global_time`
+--
+
+INSERT INTO `games_global_time` (`username`, `robotGame`, `skyGame`, `treasureMapGame`, `treasureMapReverseGame`, `castleGame`, `villageGameLocation`, `villageGameIdentity`) VALUES
+('matan', '7', '0', '0', '0', '0', '0', '0'),
+('matanri', '0', '0', '0', '0', '0', '0', '0'),
+('player1', '0', '0', '0', '0', '0', '0', '0');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `games_status`
+--
+
+CREATE TABLE IF NOT EXISTS `games_status` (
+  `username` varchar(40) NOT NULL,
+  `robotGame` varchar(40) NOT NULL,
+  `skyGame` varchar(40) NOT NULL,
+  `treasureMapGame` varchar(40) NOT NULL,
+  `treasureMapReverseGame` varchar(40) NOT NULL,
+  `castleGame` varchar(40) NOT NULL,
+  `villageGameLocation` varchar(40) NOT NULL,
+  `villageGameIdentity` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `games_status`
+--
+
+INSERT INTO `games_status` (`username`, `robotGame`, `skyGame`, `treasureMapGame`, `treasureMapReverseGame`, `castleGame`, `villageGameLocation`, `villageGameIdentity`) VALUES
+('matan', '1_6', '1_2', '1_2', '1_2', '1_2', '1_0', '1_0'),
+('matanri', '1_2', '1_2', '1_2', '1_2', '1_2', '1_0', '1_0'),
+('player1', '1_2', '1_2', '1_2', '1_2', '1_2', '1_0', '1_0');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `statistics`
+--
+
+CREATE TABLE IF NOT EXISTS `statistics` (
+  `username` varchar(40) NOT NULL,
+  `gamename` varchar(40) NOT NULL,
+  `date` varchar(40) NOT NULL,
+  `title` varchar(40) NOT NULL,
+  `details` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `statistics`
+--
+
+INSERT INTO `statistics` (`username`, `gamename`, `date`, `title`, `details`) VALUES
+('matan', 'robotGame', '2015:07:06 01:59:42', 'First 4 minutes', '1_4'),
+('matan', 'robotGame', '2015:07:06 02:01:58', '6 minutes', '1_6');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `participantNumber` int(40) NOT NULL,
+  `username` varchar(40) NOT NULL,
+  `password` varchar(40) NOT NULL,
+  `privilege` varchar(40) NOT NULL,
+  `age` int(10) NOT NULL,
+  `gender` varchar(40) NOT NULL,
+  `dominantHand` varchar(40) NOT NULL,
+  `team` varchar(40) NOT NULL,
+  `experimentNumber` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`participantNumber`, `username`, `password`, `privilege`, `age`, `gender`, `dominantHand`, `team`, `experimentNumber`) VALUES
+(1, 'matan', '1234', 'נבדק', 28, 'זכר', 'ימין', 'לא קיים קושי במתמתיקה', 1),
+(2, 'matanri', '12345678', 'נבדק', 28, 'זכר', 'ימין', 'לא קיים קושי במתמתיקה', 12),
+(3, 'player1', '12345', 'נבדק', 30, 'זכר', 'שמאל', 'לא קיים קושי במתמתיקה', 3);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
